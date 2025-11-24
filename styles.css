@@ -55,6 +55,7 @@ nav a:hover {
 .overview-hero {
     background-color: #E2E8F0;
     padding: 60px 0;
+    margin-bottom: 40px;
 }
 
 .overview-hero .container {
@@ -92,6 +93,7 @@ nav a:hover {
 /* Learn About */
 .learn-about {
     padding: 60px 0;
+    margin-bottom: 40px;
 }
 
 .learn-about h2 {
@@ -140,6 +142,7 @@ nav a:hover {
     background-color: #4A5568;
     color: white;
     padding: 60px 0;
+    margin-bottom: 40px;
 }
 
 .testing .container {
@@ -179,6 +182,7 @@ nav a:hover {
 /* Recent Stories */
 .stories {
     padding: 60px 0;
+    margin-bottom: 40px;
 }
 
 .stories h2 {
@@ -223,4 +227,72 @@ nav a:hover {
 
 .article-body a:hover {
     text-decoration: underline;
+}
+
+/* Newsletter */
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.newsletter p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    flex: 1;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
 }
